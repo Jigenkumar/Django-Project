@@ -1,0 +1,134 @@
+{% extends "base.html" %} 
+{% block body %}
+
+        <!-- Page Header-->
+        {% load static %}
+        <header class="masthead" style="background-image: url(https://source.unsplash.com/1600x900/?nature,travel)">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>Bhole Travels</h1>
+                            <span class="subheading">Plan your TRIP with us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+         <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static "/assets/img/singapore.jpg" %}" width="360" height="240"/>
+
+            <div class="card-body">
+              <p class="card-text">Singapore—known variously as the “Lion City” or “Garden City,” the latter for its many parks has also been called “instant Asia”....</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">View</a></button>
+        
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static "/assets/img/paris.jpg" %}"width="360" height="240"/>
+
+            <div class="card-body">
+              <p class="card-text">There's a reason Paris is one of the most popular cities among travelers. Known as the “City of Light” or the “City of Love”....</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://en.wikipedia.org/wiki/Paris" target="_blank">View</a></button>
+
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static "/assets/img/las-vegas.jpg" %}" width="360" height="240"/>
+
+            <div class="card-body">
+              <p class="card-text">Las Vegas is known for its casinos and world-class entertainment, but those are just two things to do in a city filled with attractions...</p>
+              <div class="d-flex justify-content-between align-items-center"> 
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://en.wikipedia.org/wiki/Las_Vegas" target="_blank">View</a></button>
+                
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static "/assets/img/dubai.jpg" %}" width="360" height="240"/>
+
+            <div class="card-body">
+              <p class="card-text">Dubai city, capital of the emirate of Dubai and often regarded as the Middle East's premier entrepot. It is a commercial hub with a large expatriate ...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://en.wikipedia.org/wiki/Dubai" target="_blank">View</a></button>
+                  
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static "/assets/img/mumbai.jpg" %}" width="360" height="240"/>
+
+            <div class="card-body">
+              <p class="card-text">Mumbai, city, capital of Maharashtra state, southwestern India. It is the country's financial and commercial centre and its principal port on the Arabian ...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://en.wikipedia.org/wiki/Mumbai" target="_blank">View</a></button>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static "/assets/img/manali.jpg" %}" width="360" height="240"/>
+
+            <div class="card-body">
+              <p class="card-text">Once called the "end of the habitable world," manali is cool atmosphereprovides a perfect haven for the ones afflicted by the hot Indian summers.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://en.wikipedia.org/wiki/Manali" target="_blank">View</a></button>
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="d-grid gap-2">
+  <center><button class="btn btn-outline-dark md" style="width:80%" type="button"><a href="/booktrip">!!..Plan Your Trip Now..!!</a></button></center>
+  
+</div>
+<hr>          
+{% endblock %}
+       
